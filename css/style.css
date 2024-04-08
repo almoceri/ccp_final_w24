@@ -1,0 +1,632 @@
+.navigation li{
+    display: inline-block;
+    padding: 20px 0px;
+    font-size: 30px;
+}
+
+a:visited {
+    color: black;
+}
+
+.travel a:visited {
+    color: black;
+}
+
+.skip{
+    position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+.petgridbacon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.Bac1 {
+    grid-column: 1/-1;
+}
+
+
+
+.des {
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5%;
+    grid-column: 1/-1;
+}
+
+.baclike {
+    justify-self: center;
+    justify-items: center;
+    grid-column: 1/-1;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5%;
+    width: 50%;
+
+}
+
+.baclike > ul {
+    list-style-type: circle;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.index {
+    border: 2px solid black;
+    grid-column: 1 / 2;
+    justify-self: center;
+    width: 98%;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.pets {
+    border: 2px solid black;
+    grid-column: 2 / 3;
+    justify-self: center;
+    width: 98%;
+    text-align: center;
+    background-color: beige;
+}
+
+.recipes {
+    border: 2px solid black;
+    grid-column: 3 / 4;
+    justify-self: center;
+    width: 98%;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.travel {
+    border: 2px solid black;
+    grid-column: 4 / 5;
+    justify-self: center;
+    width: 98%;
+    text-align: center;
+    background-color: pink;
+    color: black;
+}
+
+.active {
+    border: 2px dashed black;
+    justify-self: center;
+    width: 98%;
+    text-align: center;
+    font-weight: bold;
+    background-color: gold;
+}
+
+.travelgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 1%;
+    
+    
+}
+
+.outside {
+    display: inline-block;
+    width: auto;
+}
+
+.image1 {
+    grid-column: 1/-1;
+    grid-row: 3/4;
+}
+
+.image2 {
+    grid-column: 1/-1;
+}
+
+.description {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 20px;
+    width: 95%;
+    padding: 1% 5% 1% 5%;
+    border-radius: 5px;
+    border: 2px solid black;
+
+}
+
+.toplist {
+    box-sizing: border-box;
+    width: 95%;
+    font-size: 20px;
+    grid-column: 2/-1;
+    grid-row: 2/3;
+    padding: 1% 10% 1% 10%;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 1%;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 0 0 1% 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    padding: 10% 0 1% 0;
+
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.toplist > ul {
+    list-style-type: circle;
+    font-size: 20px;
+}
+
+.ingredients > ul {
+    list-style-type: circle;
+    font-size: 20px;
+}
+
+.foodgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.foodimage {
+    width: 100%;
+    grid-column: 1/3;
+}
+
+.ingredients {
+    grid-column: 1/2;
+    width: 50%;
+    padding: 1% 25% 1% 10%;
+    border-radius: 5px;
+    margin-right: 5%;
+    justify-self: right;
+    border: 2px solid black;
+}
+
+.procedure {
+    grid-column: 2/3;
+    padding: 1% 10% 1% 10%;
+    border-radius: 5px;
+    margin-left: 5%;
+    justify-self: left;
+    border: 2px solid black;
+}
+
+.procedure > ol {
+    list-style: decimal;
+}
+
+.petgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.petimage {
+    width: 100%;
+    grid-column: 1/3;
+    justify-self: center;
+}
+
+.petdesc {
+    grid-column: 1/2;
+    padding: 1% 5% 1% 5%;
+    margin: 5% auto;
+    border: 2px solid black;
+    width: 75%;
+    
+
+}
+
+.petlike {
+    grid-column: 2/3;
+    margin: 20% auto;
+    padding: 1% 10% 1% 10%;
+    border: 2px solid black;
+}
+
+.petlike > ul {
+    list-style-type: circle;
+}
+
+.indexgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1%;
+    justify-items: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.indexback {
+    text-align: center;
+    width: 75%;
+    border: 2px solid black;
+    padding: 2% 5%;
+    grid-column: 1/4;
+
+}
+
+.indexthings {
+    
+    width: 75%;
+    border: 2px solid black;
+    padding: 2% 5%;
+    grid-column: 1/4;
+}
+
+.indexthings > ul {
+    list-style-type: circle;
+}
+
+.intro {
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid black;
+    padding: 1% 2% 2% 2%;
+    justify-self: center;
+
+}
+
+.indeximage {
+    grid-column: 1/-1;
+}
+
+.petimagebacon{
+    width: 100%
+}
+
+.petgridbacon img {
+    width:100%
+}
+
+main {
+    grid-column: 1/-1;
+    width: 100%;
+    background: rgb(156,247,174);
+    background: radial-gradient(circle, rgba(156,247,174,1) 0%, rgba(165,255,225,1) 50%, rgba(122,228,249,1) 100%);
+    
+    
+}
+
+
+
+.zigzag{
+    width: 100%;
+    background:
+    radial-gradient(circle at 100% 50%, transparent 20%, #00D4F0 21%,
+    #00D4F0 34%, transparent 35%, transparent),
+    radial-gradient(circle at 0% 50%, transparent 20%, #00D4F0 21%, #00D4F0 34%, transparent 35%, transparent) 0 -50px;
+    background-color: rgba(122,228,249,1);
+    background-size: 75px 100px;
+}
+
+ol li {
+    padding: 5% 0 5% 0;
+}
+
+img {
+    box-sizing: border-box;
+    border: 4px solid black;
+}
+
+nav {
+    background-color: #00D4F0;
+    border-bottom: 3px solid black;
+}
+
+footer {
+    border-top: 3px solid black;
+    
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+
+    p, li {
+        font-size: 22px;
+    }
+
+
+    .petgridbacon{
+        grid-gap: 3%;
+
+    }
+
+    .baclike{
+        padding: 3%;
+        width: 40%;
+        margin-bottom: 10%;
+    }
+
+    .im1 {
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+
+    .im2{
+        grid-column: 2/-1;
+        grid-row: 1/2;
+    }
+
+    .im3{
+        grid-column: 2/-1;
+        grid-row: 2/3;
+    }
+
+    .indexback{
+        grid-row: 1/-1;
+        grid-column: 1/2;
+        width: auto;
+    }
+
+    .indexthings{
+        grid-row: 1/-1;
+        grid-column: 2/3;
+    }
+
+    .c1{
+        justify-self: center;
+
+    }
+
+    video.c1 {
+        width: 85%;
+    }
+
+    .c2{
+        justify-self: left;
+    }
+
+    .Bac1{
+        grid-column: auto;
+    }
+
+    .des{
+        grid-column: auto;
+    }
+
+    .ingredpasta{
+        grid-column: 2/-1;
+    }
+
+    .pastaimage{
+        grid-column: 1/2;
+    }
+
+    .ingredients{
+        padding: 3% 10% 7%;
+        justify-self: auto;
+        margin: auto;
+        width: auto;
+    }
+    
+    .sauce{
+        grid-column: 1/2;
+    }
+
+    .pasta{
+        grid-column: 2/3;
+    }
+
+    .foodgrid{
+        grid-gap: 1%;
+    }
+    
+    .foodgrid  h3{
+        grid-column: 1/-1;
+        
+    }
+
+    h2{
+
+        padding: 0;
+        /* margin-top: 5%; */
+        margin-bottom: 1%;
+        font-size: 45px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    div {
+        border-width: 3px;
+    }
+
+    .procedure{
+        width: auto;
+        justify-self: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5%;
+    }
+    .image1{
+        grid-column: 1/2;
+    }
+
+    .description, .toplist{
+        grid-column: 1/3;
+    }
+
+    .description{
+        grid-row: 2/3;
+    }
+
+    .toplist{
+        grid-row: 3/4;
+    }
+
+    .image1, .image2{
+        grid-row: 1/2;
+    }
+
+    .image2{
+        grid-column: 2/3;
+    }
+
+    .travelgrid{
+        grid-gap: 1%;
+    }
+
+    .ind h2{
+        margin-bottom: 3%;
+    }
+
+    .intro {
+        margin: auto;
+        width: 75%;
+    }
+
+    .petimage {
+        width: 85%;
+    }
+
+    li {
+        margin: 2%;
+    }
+
+
+
+    
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    .indexgrid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    img.im1 {
+        grid-column: 1/2;
+        grid-row: 1/-1;
+        width: 100%;
+    }
+
+
+    img.im2 {
+        width: 100%;
+    }
+
+    a.im2 {
+        grid-column: 2/3;
+        width: 100%;
+        grid-row: 1/3;
+    }
+
+    img.im3 {
+        width: 100%;
+    }
+
+    a.im3 {
+        grid-column: 3/4;
+        width: 100%;
+        grid-row: 1/3;
+
+    }
+
+
+    #indexgrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .indexback, .indexthings {
+        width: 75%;
+    }
+
+    .intro {
+        width: 55%;
+    }
+
+
+
+
+
+
+    .petimage{
+        width: 60%;
+    }
+
+    .petgrid {
+        align-items: center;
+    }
+
+    .petlike {
+        margin: 0 auto;
+    }
+
+
+
+
+    /* recepies  */
+
+
+
+
+
+    .image1, .image2 {
+        width: 90%;
+    }
+
+    .description {
+        grid-column: 1/2;
+        grid-row: 2 / 3;
+        width: 90%;
+    }
+
+    .toplist {
+        grid-column: 2/3;
+        width: 90%;
+        grid-row: 2 / 3;
+
+    }
+
+
+
+    
+}
